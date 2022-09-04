@@ -1,0 +1,36 @@
+.nav_main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px auto;
+    width: 60%;
+}
+
+.img{
+    width: 200px;
+}
+.nav_cart{
+    position: relative;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.nav_my_cart{
+    width: 40%;
+    line-height: 1;
+    font-size: 0.8rem;
+    text-decoration: none;
+}
+.nav_my_cart:hover{
+    color: #ffb200;
+}
+.nav_my_price{
+    font-size: 1.3rem;
+    color: #63666a;
+    padding-left: 20px;
+}
+.item_counter{
+    position: inherit;
+    top: -10px;
+    right: -5px;   
+}
